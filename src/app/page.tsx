@@ -2,6 +2,8 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Achievements from '@/components/Achievements';
+import Features from '@/components/Features';
+
 export default function Home() {
   return (
     <div>
@@ -10,6 +12,7 @@ export default function Home() {
       <Hero />
       <About />
       <Achievements />
+      <Features />
     </div>
   );
 }
