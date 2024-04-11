@@ -2,7 +2,7 @@ import { HiArrowSmallRight } from 'react-icons/hi2';
 
 export default function FiveButtons() {
   return (
-    <div className='flex flex-col justify-center items-center mx-32'>
+    <div className='flex flex-col justify-center items-center m-32'>
       <div className='flex w-full cursor-pointer'>
         <p className='px-10 py-8 border rounded-full hover:bg-black hover:text-white transition duration-300'>1</p>
         <button className='w-full border p-2 px-12 rounded-full text-6xl hover:bg-black hover:text-white transition duration-300'>UI</button>

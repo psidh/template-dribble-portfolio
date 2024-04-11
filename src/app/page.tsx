@@ -6,6 +6,7 @@ import Features from '@/components/Features';
 import Projects from '@/components/Projects';
 import Services from '@/components/Services';
 import FiveButtons from '@/components/FiveButtons';
+import LetsTalk from '@/components/LetsTalk';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Projects />
       <Services />
       <FiveButtons />
+      <LetsTalk />
     </div>
   );
 }

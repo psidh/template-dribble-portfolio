@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    @apply bg-gradient-to-r from-[#aaaaaa] from-5% via-black via-90% to-[#aaaaaa] to-5% inline-block text-transparent bg-clip-text;
+  }
+}

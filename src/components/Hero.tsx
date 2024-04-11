@@ -7,7 +7,7 @@ export default function Hero() {
       <div className='flex flex-col items-center justify-center'>
         <div className='text-[156px] w-full flex flex-col items-center justify-center space-y-2 mt-16 font-bold'>
           <h1>EXPLORE MY</h1>
-          <h2 className=''>PORTFOLIO</h2>
+          <h2>PORTFOLIO</h2>
         </div>
         <div>
           <Image
