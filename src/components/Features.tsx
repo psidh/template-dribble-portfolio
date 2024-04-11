@@ -3,7 +3,7 @@ import { HiArrowSmallRight } from 'react-icons/hi2';
 
 export default function Features() {
   return (
-    <div className='mt-16 mx-16 mb-48'>
+    <div className='mt-16 mx-24 mb-48'>
       <div className='flex flex-col items-center justify-center mb-12'>
         <h1 className='text-8xl'>FEATURED PROJECTS</h1>
       </div>

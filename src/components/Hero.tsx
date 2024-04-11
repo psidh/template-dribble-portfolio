@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <div className='mx-16'>
+    <div className='mx-24'>
       <div className='flex flex-col items-center justify-center'>
         <div className='text-[156px] w-full flex flex-col items-center justify-center space-y-2 mt-16 font-bold'>
           <h1>EXPLORE MY</h1>
