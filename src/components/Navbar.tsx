@@ -6,9 +6,9 @@ import { IoIosMenu } from 'react-icons/io';
 
 export default function Navbar() {
   return (
-    <section className='px-16 pt-12 flex items-center justify-between overflow-none'>
+    <section className='px-16 pt-12 flex items-center justify-between mb-12'>
       <div>
-        <h1 className='text-5xl'>PORTFOLIO</h1>
+        <h1 className='text-5xl font-semibold'>PORTFOLIO</h1>
       </div>
       <div className='flex items-center justify-center'>
         <p className='px-10 py-2 border border-[#adadad] rounded-full'>Home</p>

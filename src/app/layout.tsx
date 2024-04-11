@@ -1,6 +1,12 @@
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import './globals.css';
+import localFont from 'next/font/local'
+ 
+// Font files can be colocated inside of `app`
+const myFont = localFont({
+  src: './AtypDisplayTRIAL-Light-BF65727125c722b.otf',
+})
 
 const inter = Roboto({
   subsets: ['cyrillic', 'greek', 'latin'],
@@ -19,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={inter.className}>{children}</body>
+      <body className={myFont.className}>{children}</body>
     </html>
   );
 }
